@@ -1,5 +1,6 @@
 {
   "block.plants.spotted_begonia": "Spotted Begonia",
   "block.plants.passion_flower": "Passion Flower",
-  "itemGroup.tabplants": "Plants"
+  "itemGroup.tabplants": "Plants",
+  "block.plants.spotted_begonia_pot": "Spotted Begonia Pot"
 }

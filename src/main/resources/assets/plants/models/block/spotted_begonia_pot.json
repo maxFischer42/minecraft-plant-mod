@@ -1,0 +1,10 @@
+{
+  "parent": "plants:custom/spotted_begonia_pot",
+  "textures": {
+    "all": "plants:blocks/spottedbegonia",
+    "particle": "plants:blocks/spottedbegonia",
+    "0": "plants:blocks/pot",
+    "1": "plants:blocks/spottedbegonia"
+  },
+  "render_type": "cutout"
+}

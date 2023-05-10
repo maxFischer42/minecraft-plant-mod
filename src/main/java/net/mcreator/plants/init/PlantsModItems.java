@@ -19,6 +19,7 @@ public class PlantsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, PlantsMod.MODID);
 	public static final RegistryObject<Item> PASSION_FLOWER = block(PlantsModBlocks.PASSION_FLOWER, PlantsModTabs.TAB_PLANTS);
 	public static final RegistryObject<Item> SPOTTED_BEGONIA = block(PlantsModBlocks.SPOTTED_BEGONIA, PlantsModTabs.TAB_PLANTS);
+	public static final RegistryObject<Item> SPOTTED_BEGONIA_POT = block(PlantsModBlocks.SPOTTED_BEGONIA_POT, PlantsModTabs.TAB_PLANTS);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

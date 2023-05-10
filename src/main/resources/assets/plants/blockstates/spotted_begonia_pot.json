@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "plants:block/spotted_begonia_pot"
+    },
+    "facing=east": {
+      "model": "plants:block/spotted_begonia_pot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "plants:block/spotted_begonia_pot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plants:block/spotted_begonia_pot",
+      "y": 270
+    }
+  }
+}
