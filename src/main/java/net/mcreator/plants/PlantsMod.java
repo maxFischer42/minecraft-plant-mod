@@ -29,6 +29,11 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.plants.init.PlantsModTabs;
+import net.mcreator.plants.init.PlantsModItems;
+import net.mcreator.plants.init.PlantsModFeatures;
+import net.mcreator.plants.init.PlantsModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -45,8 +50,13 @@ public class PlantsMod {
 
 	public PlantsMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-
+		PlantsModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		PlantsModBlocks.REGISTRY.register(bus);
+		PlantsModItems.REGISTRY.register(bus);
+
+		PlantsModFeatures.REGISTRY.register(bus);
 
 	}
 

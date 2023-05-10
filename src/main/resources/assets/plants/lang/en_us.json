@@ -1,1 +1,5 @@
-{}
+{
+  "block.plants.spotted_begonia": "Spotted Begonia",
+  "block.plants.passion_flower": "Passion Flower",
+  "itemGroup.tabplants": "Plants"
+}

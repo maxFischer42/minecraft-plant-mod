@@ -1,0 +1,9 @@
+{
+  "parent": "plants:custom/passionflower_model",
+  "textures": {
+    "all": "plants:blocks/passionflower",
+    "particle": "plants:blocks/passionflower",
+    "0": "plants:blocks/passionflower"
+  },
+  "render_type": "cutout"
+}
