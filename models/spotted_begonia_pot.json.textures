@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "pot",
+        "1": "spottedbegonia"
+      },
+      "name": "default"
+    }
+  }
+}
