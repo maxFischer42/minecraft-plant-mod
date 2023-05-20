@@ -1,0 +1,79 @@
+{
+  "mod_elements": [
+    {
+      "name": "SpottedBegonia",
+      "type": "plant",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spotted_begonia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/plants/blockstates/spotted_begonia.json",
+          "src/main/resources/data/plants/forge/biome_modifier/spotted_begonia_biome_modifier.json",
+          "src/main/java/net/mcreator/plants/block/SpottedBegoniaBlock.java",
+          "src/main/resources/assets/plants/models/block/spotted_begonia.json",
+          "src/main/java/net/mcreator/plants/world/features/plants/SpottedBegoniaFeature.java",
+          "src/main/resources/assets/plants/models/item/spotted_begonia.json"
+        ]
+      }
+    },
+    {
+      "name": "Plants",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plants",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "PassionFlower",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "passion_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/plants/models/block/passion_flower.json",
+          "src/main/resources/assets/plants/models/item/passion_flower.json",
+          "src/main/resources/assets/plants/blockstates/passion_flower.json",
+          "src/main/java/net/mcreator/plants/block/PassionFlowerBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.plants.spotted_begonia": "Spotted Begonia",
+      "block.plants.passion_flower": "Passion Flower",
+      "itemGroup.tabplants": "Plants"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "plants",
+    "modName": "plants",
+    "version": "1.0.0",
+    "author": "maxfi, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.plants",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
