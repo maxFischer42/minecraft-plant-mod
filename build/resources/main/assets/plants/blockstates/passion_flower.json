@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "plants:block/passion_flower"
+    },
+    "facing=east": {
+      "model": "plants:block/passion_flower",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "plants:block/passion_flower",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plants:block/passion_flower",
+      "y": 270
+    }
+  }
+}
